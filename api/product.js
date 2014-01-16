@@ -2,8 +2,8 @@ var http = require('http');
 var mysql = require('mysql');
 var connection = mysql.createConnection({
   database: 'gnossem',
-  user : 'root',
-  password : 'root',
+  user : 'gnossem',
+  password : 'ferrari4321',
   port : '8889'
 });
     
