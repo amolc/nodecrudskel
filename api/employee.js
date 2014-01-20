@@ -16,7 +16,7 @@ var connection = mysql.createConnection({
     
 exports.findAll = function(req, res) {
 	connection.query("SELECT * from directory.employee order by id", function(err, rows){
-	res.jsonp(rows);		
+	res.jsonp(rows);
 	});
 }
 	
