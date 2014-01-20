@@ -5,9 +5,8 @@ angular.module('myApp', [
     'ngRoute',
     'ngAnimate',
     'myApp.controllers',
-    'myApp.memoryServices',
-     // 3rd party dependencies
- 	'btford.socket-io'
+    'myApp.memoryServices'
+     
     
 ]).
 config(['$routeProvider', function ($routeProvider) {
